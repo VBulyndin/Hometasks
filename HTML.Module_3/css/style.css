@@ -24,8 +24,9 @@ header{
   font-size: 14px;
 }
 .mainmenu li{
+  display: inline-block;
   border-left: 1px solid rgba(0, 120, 201, 0);
-  border-right: 1px solid transparent);
+  border-right: 1px solid rgba(0, 120, 201, 0);
 }
 .mainmenu li:hover  {
   background: linear-gradient(to top, #4a4a4a, #303030);
@@ -34,27 +35,27 @@ header{
 }
 .menu1{
   padding-left: 25px;
-  display: inline-block;
   height: 40px;
   width: 119px;
 }
 .menu2{
   height: 40px;
-  display: inline-block;
   width: 100px;
   text-align: center;
 }
 .menu3{
   height: 40px;
-  display: inline-block;
   width: 150px;
   text-align: center;
 }
 .menu4{
   height: 40px;
-  display: inline-block;
   width: 100px;
   text-align: center;
+}
+.mainmenu a{
+  text-decoration: none;
+  color: white;
 }
 /*sidebar*/
  .sidebar {
@@ -70,13 +71,18 @@ header{
 }
 .item {
   display: inline-block;
-  width: 220px;
+  width: 240px;
   padding: 10px 0 10px 25px;
   border: 1px solid #c8c8c8;
+  box-sizing: border-box;
 }
 .item:hover{
   padding-left: 40px;
   background-color: #f9f9f9;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 /*content*/
 .box2 {
@@ -93,20 +99,23 @@ img {
 }
 /*footer*/
 footer {
-  padding: 20px 50px 40px;
+  padding: 20px 50px 0;
 }
 .footer{
-  margin-top: 40px;
   background: #e1e1e1;
+  font-size: 14px;
 }
-.footer .mainmenu1{
+.footer li{
+  line-height: 2.8;
   display: inline-block;
-  width: 100px;
-  text-decoration: underline;
-  text-align: center;
 }
-.mainmenu4{
-  display: inline-block;
+.menu5{
   width: 370px;
   text-align: right;
+}
+.subfooter{
+  padding-left: 0;
+}
+.subfooter .menu2:hover{
+  text-decoration: underline;
 }
