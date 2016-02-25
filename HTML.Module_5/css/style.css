@@ -14,16 +14,6 @@
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url('../fonts/helveticaneue-thin-webfont.eot');
-    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
-         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
-         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Helvetica Neue';
     src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
     src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
@@ -34,7 +24,7 @@
 
 }
 body {
-    background-image: url(../img/background.png);
+    background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-position: center;
      margin: 0 auto;
@@ -46,18 +36,15 @@ body {
      position: relative;
 }
 .header  {
-
-text-align: right;
+  text-align: right;
 }
 .header  li {
-   display: inline;
-
+  display: inline;
   padding: 9px;
 }
 .header  a {
-    color: #60b5ed;
-    text-decoration: none;
-
+  color: #60b5ed;
+  text-decoration: none;
 }
 .header .menu6{
   display: inline-block;
@@ -68,7 +55,6 @@ text-align: right;
   color: white;
   border-left: 1px solid rgba(0, 120, 201, 0);
   border-right: 1px solid rgba(0, 120, 201, 0);
-
 }
 .header .menu5{
   display: inline-block;
@@ -76,7 +62,6 @@ text-align: right;
   height: 18px;
   text-align:center;;
   border-left: 1px solid #56a2dc;
-
 }
 .header .menu1 {
  display: inline-block;
@@ -108,10 +93,8 @@ text-align: right;
   padding-left: 35px;
   color: white;
 }
-
 .menu6 a{
   color: white;
-
 }
 .menu6:hover {
   background: linear-gradient(to top, #2e7ac4, #4eacda);
@@ -147,9 +130,7 @@ text-align: right;
 }
 /*content*/
 .form {
-
   background: rgba(0, 0, 0, 0.631);
-
   position: absolute;
   left: 350px;
   top: 249px;
@@ -157,9 +138,7 @@ text-align: right;
   height: 62px;
 }
 .form1 {
-
   background: rgba(0, 0, 0, 0.631);
-
   position: absolute;
   left: 350px;
   top: 313px;
@@ -180,10 +159,8 @@ text-align: right;
 }
 .input .item {
   position: absolute;
-
   left: 145px;
   top: 35px;
-
 }
 .item li{
   display: inline-block;
@@ -212,7 +189,6 @@ text-align: right;
   width: 225px;
   text-align: center;
   padding: 0 12px 0 25px;
-
 }
 .ou {
   position: absolute;
@@ -228,7 +204,6 @@ text-align: right;
   top: 145px;
   width: 275px;
   height: 72px;
-
 }
  .box,.box1,.box2,.box3,.box4{
   font-family: "Helvetica Neue", tahoma, sans-serif;
@@ -248,9 +223,7 @@ text-align: right;
   box-shadow: 0px 0px 15px 3px rgba(104,155,204,1);
 }
 .regforma label{
-
   padding-left: 13px;
-
 }
 .box6{
   display: block;
