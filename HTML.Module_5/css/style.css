@@ -1,0 +1,273 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-bold-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+body {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     margin: 0 auto;
+     width: 1215px;
+     height: 1064px;
+     font-family: "Helvetica Neue", tahoma, sans-serif;
+     font-size: 14px;
+     font-weight: normal;
+     position: relative;
+}
+.header  {
+
+text-align: right;
+}
+.header  li {
+   display: inline;
+
+  padding: 9px;
+}
+.header  a {
+    color: #60b5ed;
+    text-decoration: none;
+
+}
+.header .menu6{
+  display: inline-block;
+  width: 172px;
+  height: 18px;
+  text-align: center;
+  margin-right: 20px;
+  color: white;
+  border-left: 1px solid rgba(0, 120, 201, 0);
+  border-right: 1px solid rgba(0, 120, 201, 0);
+
+}
+.header .menu5{
+  display: inline-block;
+  width: 144px;
+  height: 18px;
+  text-align:center;;
+  border-left: 1px solid #56a2dc;
+
+}
+.header .menu1 {
+ display: inline-block;
+ width:80px;
+ height: 18px;
+ text-align:center;
+}
+.header .menu2 {
+  display: inline-block;
+  width: 70px;
+  height: 18px;
+  text-align:center;
+}
+.header .menu3 {
+  display: inline-block;
+  width: 70px;
+  height: 18px;
+  text-align:center;
+}
+ .header .menu4 {
+  display: inline-block;
+  width: 70px;
+  height: 18px;
+  text-align:center;
+}
+.menu5 a{
+  background-image: url(../img/inventicons29.png);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  color: white;
+}
+
+.menu6 a{
+  color: white;
+
+}
+.menu6:hover {
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+  border-left: 1px solid #56a2dc;
+  border-right: 1px solid #56a2dc;
+}
+.menu6 a:hover {
+  text-decoration: underline;
+}
+.menu1:hover {
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+}
+.menu1 a:hover {
+  color: white;
+}
+.menu2:hover {
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+}
+.menu2 a:hover {
+  color: white;
+}
+.menu3:hover {
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+}
+.menu3 a:hover {
+  color: white;
+}
+.menu4:hover {
+  background: linear-gradient(to top, #2e7ac4, #4eacda);
+}
+.menu4 a:hover {
+  color: white;
+}
+/*content*/
+.form {
+
+  background: rgba(0, 0, 0, 0.631);
+
+  position: absolute;
+  left: 350px;
+  top: 249px;
+  width: 560px;
+  height: 62px;
+}
+.form1 {
+
+  background: rgba(0, 0, 0, 0.631);
+
+  position: absolute;
+  left: 350px;
+  top: 313px;
+  width: 560px;
+  height: 551px;
+}
+.podform {
+   text-align: center;
+   font-weight: bold;
+   font-size: 24px;
+   color: white;
+   padding: 17px;
+}
+.input {
+  position: relative;
+  height: 551px;
+  color:white;
+}
+.input .item {
+  position: absolute;
+
+  left: 145px;
+  top: 35px;
+
+}
+.item li{
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 9px;
+}
+.item{
+  height: 35px;
+  width: 275px;
+  background: linear-gradient(to top, #2d4176, #3d5698);
+  font-size: 15px;
+  border-radius: 4px;
+  border-top: 1px solid #778bac;
+}
+.item .item1{
+  display:  block;
+  padding: 2px 9px;
+  border-right: 1px solid #1d3c75;
+  width: 25px;
+  float: left;
+}
+.item .item2 {
+   display: inline ;
+  width: 225px;
+  text-align: center;
+  padding: 0 12px 0 25px;
+
+}
+.ou {
+  position: absolute;
+  padding: 30px 0;
+  left: 145px;
+  top: 71px;
+  width: 275px;
+  height: 12px;
+}
+.input1 {
+  position: absolute;
+  left: 145px;
+  top: 145px;
+  width: 275px;
+  height: 72px;
+
+}
+ .box,.box1,.box2,.box3,.box4{
+  font-family: "Helvetica Neue", tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  width: 255px;
+  height: 33px;
+  background-color: black;
+  margin-bottom: 18px;
+  border-width: inherit;
+  border-bottom: 1px solid #4a4a49;
+  color: white;
+  padding-left: 20px;
+}
+.regforma .ho:hover{
+  background-color: #1b5288;
+  box-shadow: 0px 0px 15px 3px rgba(104,155,204,1);
+}
+.regforma label{
+
+  padding-left: 13px;
+
+}
+.box6{
+  display: block;
+  margin: 20px 60px;
+  width: 150px;
+  height:  35px;
+  background: linear-gradient(to top, #2e7ac4, #4faddb);
+  border-width: inherit;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.footer {
+  position: absolute;
+  bottom: 30px;
+  left: 135px;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
