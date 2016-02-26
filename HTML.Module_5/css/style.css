@@ -25,10 +25,11 @@
 }
 body {
     background-image: url(../img/Background.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     margin: 0 auto;
-     width: 1215px;
+    background-repeat:  no-repeat;
+    background-size: 100%;
+    /*background-position: center;*/
+     /*margin: 0 auto;*/
+     /*width: 1215px;*/
      height: 1064px;
      font-family: "Helvetica Neue", tahoma, sans-serif;
      font-size: 14px;
@@ -132,7 +133,7 @@ body {
 .form {
   background: rgba(0, 0, 0, 0.631);
   position: absolute;
-  left: 350px;
+  left: 400px;
   top: 249px;
   width: 560px;
   height: 62px;
@@ -140,7 +141,7 @@ body {
 .form1 {
   background: rgba(0, 0, 0, 0.631);
   position: absolute;
-  left: 350px;
+  left: 400px;
   top: 313px;
   width: 560px;
   height: 551px;
